@@ -1,0 +1,13 @@
+table {
+  width: 450px;
+  border-collapse: collapse;
+}
+table thead th, thead td {
+  background-color: #cbc9c9;
+  font-weight: bold;
+}
+table td {
+  border: 1px solid #999;
+  text-align: right;
+}
+/* CSS muotoilut kesken */
