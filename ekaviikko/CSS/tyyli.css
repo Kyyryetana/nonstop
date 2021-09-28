@@ -1,22 +1,28 @@
+body {
+  background: #BDDAD8;
+}
 header {
   height: 100px;
-  background: #EDDDA1;
+  background: #95C2BF;
+  text-align: left;
+  padding: 30px;
+  margin: -10px;
+  border-bottom: 1px solid black;
 }
 
 h1 {
-  color: #FFF;
-  padding: 22px 0 0 20px;
+  color: black;
 }
 
 nav {
-  width: 400px;
+  width: 350px;
   height: 20px;
-  background: #D6C136;
-  margin-left: 200px;
+  background: #BDDAD8;
+  margin: 45px;
 }
 
 nav ul {
-  margin: 0 0 0 -10px;
+
 }
 
 nav li {
@@ -26,9 +32,8 @@ nav li {
 }
 
 section {
-  width: 400px;
-  background: #B5C0EB;
-  margin-top; -20px;
+  width: 500px;
+  background: #4E918C;
 }
 
 h2 {
@@ -36,9 +41,12 @@ h2 {
   padding: 10 px 0 0 10px;
 }
 
+.artikkeli {
+  background: #4E918C;
+  border-bottom: 1px solid black
+}
 article {
-  width: 400px;
-  background: #B5C0EB;
+  background: #4E918C;
 }
 
 article p {
@@ -48,28 +56,35 @@ article p {
 aside {
   width: 200px;
   height: 502px;
-  background: #8592ED;
+  background: #4E918C;
   float: right;
-  margin-top: -1px;
+  margin-top: 20px;
+  border: 1px solid black;
 }
 
 h3 {
-  color: #fff;
+  color: black;
   padding: 10px 0 0 10px;
 }
 
 aside article {
   width: 200px;
-  background: #8592ED;
-  color: #fff;
+  background: #4E918C;
+  color: black;
 }
 
 footer {
   height: 40px;
-  background: #EDDDA1;
+  background: #95C2BF;
   margin-top: -16px;
+  border: 1px solid black;
 }
 
 footer p {
-  padding: 10px 0 0 10px;
+  text-align: left;
+  margin: 10px;
+}
+/* classit */
+.lähde {
+  text-align: right;
 }
