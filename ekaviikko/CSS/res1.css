@@ -14,13 +14,11 @@
   border-radius: 4%;
   width: 300px;
   padding: 1%;
-  margin: 40px 10px 20px 10px;
-
+  margin: -750px 10px 20px 10px;
 }
 #field {
   clear: both;
   float: right;
-
 }
 #orangebutton {
   background-color: orange;
@@ -34,16 +32,17 @@
 #heading {
   text-align: center;
 }
-#listtext {
-
-}
 /* footer */
-#footer {
-
-}
 #bubbles {
-
+  width: 60px
 }
-#footertxt {
-
+@media (max-width: 600px) {
+  #main {
+    display: block;
+    width: auto;
+  }
+  #sidebox {
+    margin: 20px 50px 20px 40px;
+    width: auto;
+  }
 }
