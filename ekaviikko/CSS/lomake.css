@@ -1,0 +1,27 @@
+body {
+  margin: auto;
+  padding: 40px;
+  background-color: #c4c4c4;
+}
+label {
+  font-weight: bold;
+  font-size: 16px;
+
+}
+.lomake {
+  border: 5px solid #3ec940;
+  border-radius: 3%;
+  padding: 15px;
+  background-color: #8cc8aa;
+  width: auto;
+
+}
+#enimi {
+  margin-left: 50px;
+}
+#ssana {
+  margin-left: 45px;
+}
+#oppitunti {
+  margin-left: 13px;
+}
