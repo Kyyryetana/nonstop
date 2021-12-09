@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js">
+    </script>
     <meta charset="utf-8">
     <title>Ehtolauseita</title>
   </head>
@@ -18,7 +21,7 @@
       <br><br>
       <p id="jarjestetytLuvut"></p>
     </div>
-    
+
     <div class="tehtava2">
       <h1>Tehtävä 2</h1>
       <p>Kirjoita ohjelma, joka ottaa vastaan 5 lukua ja etsii niistä suurimman</p>
@@ -37,8 +40,35 @@
       <p id="suurinNumero"></p>
     </div>
     <div class="tehtava3">
-
+      <h1>Tehtävä 3</h1>
+      <p>Kirjoita ohjelma, joka kertoo, onko antamasi luku parillinen vai pariton</p>
+      <label for="eka3">Anna luku: </label>
+      <input type="text" name="eka" id="kolmas1"><br><br>
+      <button type="button" name="button" onclick="tarkista3()">Tarkista</button>
+      <br><br>
+      <p id="pariVaiPariton"></p>
     </div>
-
+    <div class="tehtava4">
+      <h1>Tehtävä 4</h1>
+      <p>Kirjoita ohjelma, joka kysyy käyttäjän ikää ja tarkistaa, mitä ajoneuvoa saa ajaa: < 16v - polkupyörää, < 18v - mopoa, muutoin autoa</p>
+      <label for="eka4">Anna käyttäjän ikä: </label>
+      <input type="text" name="eka" id="neljas1"><br><br>
+      <button type="button" name="button" onclick="laskeIka()">Näytä ajoneuvo</button>
+      <br><br>
+      <p id="ajoneuvoOn"></p>
+    </div>
+    <div class="tehtava5">
+      <h1>Tehtävä 5</h1>
+      <p>Kirjoita ohjelma, joka kääntää "Hei maailma" - tekstin valitulle kielelle (englanti, ruotsi, espanja)</p>
+      <p>Valitse kieli</p>
+        <select id="kieli" name="pudotusValikko">
+          <option value=""></option>
+          <option value="eng">englanti</option>
+          <option value="swe">ruotsi</option>
+          <option value="esp">espanja</option>
+        </select>
+        <button type="button" name="button" onclick="kaanna()">Käännä</button><br><br>
+        <p id="kaannosTeksti"></p>
+    </div>
   </body>
 </html>
