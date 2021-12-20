@@ -48,13 +48,32 @@ function etsiSuurinNumero() {
 //tästä alkaa kolmas
 
 function tarkista3() {
-  let luku = parseInt(document.getElementById('kolmas1').value);
-
-  if (luku % 2 == 0) {
+   let arvo = parseInt(document.getElementById('kolmas1').value);
+  if (arvo%2 == 0) {
     document.getElementById('pariVaiPariton').innerHTML = ("Parillinen");
   } else {
     document.getElementById('pariVaiPariton').innerHTML = ("Pariton");
   }
 }
-//kolmas ei toimi
+//kolmas ei toimi!!!
 //tästä alkaa neljäs
+
+function laskeIka() {
+  let ika = parseInt(document.getElementById('neljas1').value);
+  if (ika <= 14) {
+    document.getElementById('ajoneuvoOn').innerHTML = ("Saat ajaa polkupyörällä.");
+  } else if (ika >= 15 && ika < 18) {
+      document.getElementById('ajoneuvoOn').innerHTML = ("Saat ajaa mopolla.");
+  } else if (ika >= 18) {
+      document.getElementById('ajoneuvoOn').innerHTML = ("Saat ajaa autolla.");
+  } else {
+      alert("Ei tosta nyt ota selvää erkkikään, yritäppä uudelleen.");
+  }
+}
+//neljäs valmis
+//tästä alkaa viides
+
+function kaanna() {
+  let valittuKieli = document.getElementById('kieli').value;
+  console.log(valittuKieli);
+}
