@@ -48,18 +48,18 @@ function etsiSuurinNumero() {
 //tästä alkaa kolmas
 
 function tarkista3() {
-   let arvo = parseInt(document.getElementById('kolmas1').value);
+   let arvo = parseInt(document.getElementById('eka3').value);
   if (arvo%2 == 0) {
     document.getElementById('pariVaiPariton').innerHTML = ("Parillinen");
   } else {
     document.getElementById('pariVaiPariton').innerHTML = ("Pariton");
   }
 }
-//kolmas ei toimi!!!
+//kolmas valmis
 //tästä alkaa neljäs
 
 function laskeIka() {
-  let ika = parseInt(document.getElementById('neljas1').value);
+  let ika = parseInt(document.getElementById('eka4').value);
   if (ika <= 14) {
     document.getElementById('ajoneuvoOn').innerHTML = ("Saat ajaa polkupyörällä.");
   } else if (ika >= 15 && ika < 18) {
@@ -75,5 +75,14 @@ function laskeIka() {
 
 function kaanna() {
   let valittuKieli = document.getElementById('kieli').value;
-  console.log(valittuKieli);
+  if (valittuKieli == 'eng') {
+    document.getElementById('kaannosTeksti').innerHTML = ("Hello World!");
+  } else if (valittuKieli == 'swe') {
+      document.getElementById('kaannosTeksti').innerHTML = ("Hej Världen!");
+  } else if (valittuKieli == 'esp') {
+      document.getElementById('kaannosTeksti').innerHTML = ("Hola Mundo!");
+  } else {
+      alert("Valitse joku kielistä!");
+  }
 }
+//viides valmis
