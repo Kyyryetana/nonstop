@@ -7,4 +7,3 @@ function muutaSalasana() {
     document.getElementById('vastaus').textContent = salasana;
   }
 }
-//kesken
