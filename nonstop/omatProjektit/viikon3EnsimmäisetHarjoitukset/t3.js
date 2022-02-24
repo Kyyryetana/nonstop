@@ -1,11 +1,11 @@
 function tarkista() {
   let lause = document.getElementById('annettuSana').value;
-  let jono = "";
+  let tieto = "ei ole";
 
-  if (lause == "ö" || lause == "Ö") {
-    jono = "on";
-  } else {
-    jono = "ei ole";
+  for (var i = 0; i < lause.length; i++) {
+    if (lause[i] == "ö" || lause[i] == "Ö") {
+      tieto = "on"
+    }
+    document.getElementById('vastaus').innerHTML = tieto;
   }
-  document.getElementById('vastaus').innerHTML = jono;
 }
